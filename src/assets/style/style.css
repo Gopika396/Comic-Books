@@ -1441,3 +1441,49 @@ body {
     height: 330px;
   }
 }
+
+/* =================================
+   RESPONSIVE FOOTER CENTER ALIGNMENT
+================================= */
+
+@media (max-width: 991px) {
+
+  .footer-top {
+    text-align: center;
+  }
+
+  .footer-description {
+    margin: 22px auto;
+  }
+
+  .footer-socials {
+    justify-content: center;
+  }
+
+  .main-footer h5 {
+    text-align: center;
+  }
+
+  .footer-links {
+    text-align: center;
+  }
+
+  .newsletter-text {
+    text-align: center;
+  }
+
+  .newsletter-form {
+    max-width: 400px;
+    margin: 22px auto 12px;
+  }
+
+  .newsletter-note {
+    text-align: center;
+  }
+
+  .footer-bottom {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
